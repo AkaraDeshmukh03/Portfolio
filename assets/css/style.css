@@ -781,7 +781,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Projects
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -826,7 +826,7 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  background: #00000099;
   border-radius: 8px;
 }
 
@@ -1009,7 +1009,7 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #b2904f;
 }
 
 .portfolio-details-box{
@@ -1026,30 +1026,32 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  background: #efefef;
+  border-radius: 8px
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #ffffff;
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.1);
+  background: #b2904f;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #999999;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: #333333;
   line-height: 24px;
   font-size: 14px;
+  font-weight: 600;
   margin: 0 0 0 68px;
 }
 
@@ -1068,12 +1070,13 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #b2904f;
 }
 
 .contact .php-email-form {
   padding: 30px;
-  background: rgba(255, 255, 255, 0.08);
+  background: #efefef;
+  border-radius: 8px
 }
 
 .contact .php-email-form .error-message {
@@ -1092,7 +1095,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  background: #b2904f;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1112,7 +1115,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #b2904f;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1122,10 +1125,10 @@ section .container {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.08);
+  background: #fff;
   border: 0;
   transition: 0.3s;
-  color: #fff;
+  color: #444444;
 }
 
 .contact .php-email-form input:focus,
@@ -1154,16 +1157,16 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #b2904f;
   border: 0;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #b2904f;
 }
 
 @keyframes animate-loading {
@@ -1200,7 +1203,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #b2904f;
   transition: 0.3s;
 }
 
