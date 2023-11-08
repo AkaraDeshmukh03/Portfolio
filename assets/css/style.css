@@ -272,7 +272,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #b2904f;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -300,7 +300,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fff;
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -383,7 +383,7 @@ section .container {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
-  line-height: 1px;
+  line-height: inherit;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -708,6 +708,7 @@ section .container {
   background: #efefef;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  border-radius: 8px;
 }
 
 .services .icon-box .icon {
@@ -768,7 +769,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #F7C873;
+  color: #b2904f;
 }
 
 .services .icon-box:hover .icon::before {
@@ -1125,10 +1126,11 @@ section .container {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #fff;
+  background: #999999;
   border: 0;
   transition: 0.3s;
-  color: #444444;
+  border-radius: 8px;
+  color: #b2904f;
 }
 
 .contact .php-email-form input:focus,
