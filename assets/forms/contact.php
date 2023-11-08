@@ -1,5 +1,5 @@
 <?php
-$receiving_email_address = 'adityashekar25@gmail.com';
+$receiving_email_address = 'karthikdeshmukh03@icloud.com';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
