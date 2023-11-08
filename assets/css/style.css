@@ -11,8 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
-  color: #fff;
+  /*background-color: #EFEFEF;*/
+  color: #333333;
   position: relative;
   background: transparent;
 }
@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #EFEFEF;
   background-size: cover;
   left: 0;
   right: 0;
@@ -82,7 +82,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: #333333;
   line-height: 1;
   display: inline-block;
 }
@@ -90,13 +90,14 @@ h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color:#666666;
 }
 
 #header h2 span {
-  color: #fff;
+  color: #333333;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
+  font-weight:600;
 }
 
 #header img {
@@ -114,8 +115,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background:#b2904f;
+  color: #333333;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -155,7 +156,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #FFF;
 }
 
 #header.header-top .social-links,
@@ -228,7 +229,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
+  color:#b2904f;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -247,7 +248,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #b2904f;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -264,7 +265,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #333333;
 }
 
 /**
@@ -338,6 +339,7 @@ h6 {
   position: relative;
 }
 
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -357,11 +359,14 @@ section.section-show {
   bottom: auto;
   opacity: 1;
   padding-bottom: 45px;
+  display:grid;
+  row-gap:16px;
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: #FFF;
   padding: 30px;
+  border-radius:16px;
 }
 
 @media (max-width: 768px) {
@@ -389,9 +394,9 @@ section .container {
 .section-title h2::after {
   content: "";
   width: 120px;
-  height: 1px;
+  height: 2px;
   display: inline-block;
-  background: #4ceb95;
+  background: #b2904f;
   margin: 4px 10px;
 }
 
@@ -402,7 +407,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #333333;
 }
 
 /*--------------------------------------------------------------
@@ -411,7 +416,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #b2904f;
 }
 
 .about-me .content ul {
@@ -432,7 +437,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #b2904f;
   line-height: 0;
 }
 
@@ -452,7 +457,8 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(255, 255, 255, 0.08);
+  background: #EFEFEF;
+  border-radius:8px;
 }
 
 .counts .count-box i {
@@ -461,9 +467,9 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background:#b2904f;
   padding: 12px;
-  color: #18d26e;
+  color: #FFF;
   border-radius: 50px;
   line-height: 0;
 }
@@ -472,7 +478,7 @@ section .container {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #fff;
+  color: #b2904f;
 }
 
 .counts .count-box p {
@@ -499,7 +505,7 @@ section .container {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #333333;
 }
 
 .skills .progress .skill .val {
@@ -508,14 +514,16 @@ section .container {
 }
 
 .skills .progress-bar-wrap {
-  background: rgba(255, 255, 255, 0.2);
+  background: #EFEFEF;
+  border-radius:3px;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #b2904f;
+  border-radius:2px;
 }
 
 /*--------------------------------------------------------------
@@ -525,8 +533,9 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: #EFEFEF;
   transition: ease-in-out 0.3s;
+  border-radius:8px;
 }
 
 .interests .icon-box i {
@@ -541,7 +550,7 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: #333333;
 }
 
 .interests .icon-box:hover {
