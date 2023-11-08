@@ -95,7 +95,7 @@ h6 {
 
 #header h2 span {
   color: #333333;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #b2904f;
   padding-bottom: 6px;
   font-weight:600;
 }
@@ -646,13 +646,13 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #333333;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid #b2904f2b;
   position: relative;
 }
 
@@ -662,17 +662,18 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #b2904f;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  background: #b2904f;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 8px;
 }
 
 .resume .resume-item ul {
@@ -695,8 +696,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #b2904f;
+  border: 2px solid #b2904f;
 }
 
 /*--------------------------------------------------------------
@@ -704,7 +705,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: #efefef;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
@@ -713,7 +714,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #18d26e;
+  background: #b2904f;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -735,7 +736,7 @@ section .container {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: rgba(255, 255, 255, 0.15);
+  background: #ffffff26;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
@@ -748,7 +749,7 @@ section .container {
 }
 
 .services .icon-box h4 a {
-  color: #fff;
+  color: #333333;
 }
 
 .services .icon-box p {
@@ -758,8 +759,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: #b2904f;
+  border-color: #f7c873;
 }
 
 .services .icon-box:hover .icon {
@@ -767,11 +768,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: #F7C873;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #f7c873;
 }
 
 .services .icon-box:hover h4 a,
@@ -803,16 +804,17 @@ section .container {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  color: #333333;
+  background: #efefef;
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #b2904f;
+  border-radius: 8px;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -825,6 +827,7 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
 }
 
 .portfolio .portfolio-wrap::before {
