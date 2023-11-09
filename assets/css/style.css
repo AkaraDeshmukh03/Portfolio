@@ -946,7 +946,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  background: #fff;
   position: fixed;
   left: 0;
   right: 0;
@@ -1006,7 +1006,7 @@ section .container {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #efefef;
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
@@ -1064,7 +1064,7 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: #333333;
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
@@ -1192,7 +1192,7 @@ section .container {
   padding: 15px;
   text-align: right;
   font-size: 13px;
-  color: #fff;
+  color: #333333;
   z-index: 999999;
 }
 
