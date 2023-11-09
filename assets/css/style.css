@@ -109,7 +109,12 @@ h6 {
   margin-top: 40px;
   display: flex;
 }
-
+.gslide-external{
+  border-radius: 16px;
+}
+.img-fluid {
+  border-radius: 8px;
+}
 #header .social-links a {
   font-size: 16px;
   display: flex;
@@ -998,8 +1003,8 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
+  margin-top: -20px;
+  position: absolute;
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet {
@@ -1019,7 +1024,9 @@ section .container {
   display:block;
   position:absolute;
 }
-
+.portfolio-details-slider.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
+  border-radius: 16px;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1126,23 +1133,23 @@ section .container {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #999999;
+  background: #FFF;
   border: 0;
   transition: 0.3s;
   border-radius: 8px;
-  color: #b2904f;
+  
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: #FFF;
 }
 
-.contact .php-email-form input::-moz-placeholder,
+/*.contact .php-email-form input::-moz-placeholder,
 .contact .php-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
-}
+}*/
 
 .contact .php-email-form input::placeholder,
 .contact .php-email-form textarea::placeholder {
@@ -1211,4 +1218,16 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+
+/* Style placeholder text */
+.form-control::placeholder {
+  color: #999999 !important; /* Change the color as desired */
+  font-style: italic; /* Add any specific styling like italic */
+}
+
+/* Adjust placeholder text on focus */
+.form-control:focus::placeholder {
+  color: #999999; /* Hide the placeholder text on focus */
 }
