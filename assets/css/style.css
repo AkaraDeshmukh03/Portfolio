@@ -1199,7 +1199,7 @@ section .container {
   padding: 15px;
   text-align: right;
   font-size: 13px;
-  color: #333333;
+  color: #b2904f;
   z-index: 999999;
 }
 
@@ -1217,7 +1217,7 @@ section .container {
 }
 
 .credits a:hover {
-  color: #fff;
+  color: #333333;
 }
 
 
