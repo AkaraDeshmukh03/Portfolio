@@ -130,7 +130,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #fff;
 }
 
 @media (max-width: 992px) {
@@ -640,7 +640,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #b2904f;
 }
 
 /*--------------------------------------------------------------
@@ -921,7 +921,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #b2904f;
 }
 
 .portfolio .portfolio-wrap:hover::before {
