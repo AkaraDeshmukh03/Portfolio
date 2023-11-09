@@ -996,11 +996,15 @@ section .container {
   padding: 15px 0 0 0;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
 }
+
+ .swiper-slide img {
+  width: 100% !important;
+} 
 
 .portfolio-details .swiper-pagination {
   margin-top: -20px;
