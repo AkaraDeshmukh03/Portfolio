@@ -1112,7 +1112,6 @@ section .container {
 
 .contact .php-email-form .sent-message {
   display: none;
-  background: rgba(255, 255, 255, 0.08);
   background: #b2904f;
   text-align: center;
   padding: 15px;

@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
         $mail->setFrom($email);
-        $mail->addAddress($email);
+        $mail->addAddress('karthikdeshmukh03@icloud.com');
 
         
         $mail->isHTML(true);                        
@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Send the email
         $mail->send();
-        echo "Email sent successfully";
+        echo "OK";
     } catch (Exception $e) {
         echo "Failed to send the email. Error: {$mail->ErrorInfo}";
     }
