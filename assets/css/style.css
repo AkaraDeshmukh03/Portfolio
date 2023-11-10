@@ -386,7 +386,6 @@ section .container {
   }
   section .container {
     background: #FFF;
-    padding: 0px !important;
     border-radius:16px;
   }
 }
