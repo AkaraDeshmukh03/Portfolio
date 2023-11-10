@@ -3,11 +3,11 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Include the PHPMailer Autoload file
-require 'path/to/PHPMailer/src/Exception.php';
-require 'path/to/PHPMailer/src/PHPMailer.php';
-require 'path/to/PHPMailer/src/SMTP.php';
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
 
-$receiving_email_address = 'karthikdeshmukh03@icloud.com';
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
@@ -24,17 +24,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();                     
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;                                   
-        $mail->Username   = 'karthikdeshmukh@gmail.com';            
-        $mail->Password   = 'your_smtp_password';                  
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;        
+        $mail->Username   = 'ahaofficialott@gmail.com';            
+        $mail->Password   = 'mprfnlgrtsdjvycw';                  
+        $mail->SMTPSecure = 'ssl';        
         $mail->Port       = 465;                                   
 
-        // Recipients
-        $mail->setFrom($email, $name);
-        $mail->addAddress($receiving_email_address); // Add a recipient
 
-        // Content
-        $mail->isHTML(false);                                  // Set email format to plain text
+        $mail->setFrom('ahaofficialott@gmail.com');
+        $mail->addAddress($email);
+
+        
+        $mail->isHTML(true);                        
         $mail->Subject = $subject;
         $mail->Body    = "From: $name\nEmail: $email\nMessage: $message";
 
