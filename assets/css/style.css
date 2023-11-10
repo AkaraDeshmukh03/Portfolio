@@ -374,6 +374,8 @@ section .container {
   border-radius:16px;
 }
 
+
+
 @media (max-width: 768px) {
   section {
     top: 120px;
@@ -381,6 +383,11 @@ section .container {
 
   section.section-show {
     top: 80px;
+  }
+  section .container {
+    background: #FFF;
+    padding: 0px !important;
+    border-radius:16px;
   }
 }
 
