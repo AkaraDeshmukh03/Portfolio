@@ -544,7 +544,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #EFEFEF;
+  background: #fff;
   transition: ease-in-out 0.3s;
   border-radius:8px;
 }
